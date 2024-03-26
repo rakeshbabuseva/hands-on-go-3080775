@@ -14,6 +14,9 @@ func (l letterCounter) count(input string) int {
 	}
 	return result
 }
+func (n letterCounter) name() string {
+	return n.identifier
+}
 
 type numberCounter struct{ designation string }
 
